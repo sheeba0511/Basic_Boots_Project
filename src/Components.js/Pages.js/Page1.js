@@ -26,12 +26,12 @@ export default function Page1() {
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </BrowserRouter>{" "}
-      {/* Router DOM :-- There are 3 points to relocate  throughh URL.
+      {/* Router DOM :-- There are 3 points to relocate  through URL.
       1- BrowserRouter (Grandparent)
       2- Router(Parent)
       3- Route(Child)
       There are 3 route bcz we have 3 pages (Home.js,Login.js, Register.js ).
-      In Component we use the props And in this route there are 2 props (Path, Elemet) */}
+      In Component we use the props And in this route there are 2 props (Path, Element) */}
     </>
   );
 }
